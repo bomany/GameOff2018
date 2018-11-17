@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a3bdb2cd68f901469e7cc149151eb49, type: 3}
+  m_Script: {fileID: 11500000, guid: 15a8bd147701cf94fabc3e3ae966ece5, type: 3}
   m_Name: CC
   m_EditorClassIdentifier: 
   debugViews:
@@ -43,7 +43,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       intensity: 1
-      radius: 0.09
+      radius: 0.3
       sampleCount: 10
       downsampling: 1
       forceForwardCompatibility: 0
@@ -102,8 +102,8 @@ MonoBehaviour:
       bloom:
         intensity: 0.5
         threshold: 1.1
-        softKnee: 0.198
-        radius: 1.99
+        softKnee: 0.5
+        radius: 4
         antiFlicker: 0
       lensDirt:
         texture: {fileID: 0}
@@ -120,9 +120,9 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 0.5
-        temperature: 0
-        tint: 0
+        postExposure: -0.21
+        temperature: -10.6
+        tint: 0.7
         hueShift: 0
         saturation: 1
         contrast: 1
@@ -317,12 +317,12 @@ MonoBehaviour:
       size: 1
       luminanceContribution: 0.8
   vignette:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.45
+      intensity: 0.36
       smoothness: 0.2
       roundness: 1
       mask: {fileID: 0}
